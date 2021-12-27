@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 84.51%;
+  margin: 0 auto;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.fixed__link {
+  @include fontStyle(15px, black, capitalize);
+  text-decoration: none;
+  padding: 15px 40px;
+  background-color: white;
+  border-radius: 5px;
+}
+%flexRow {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+h2 {
+  @include fontStyle($h2Size, black);
+}
+h3 {
+  @include fontStyle($h3Size, black);
+}
+h4 {
+  @include fontStyle($h4Size, black);
+}
+h5 {
+  @include fontStyle($h5Size, black);
+}
