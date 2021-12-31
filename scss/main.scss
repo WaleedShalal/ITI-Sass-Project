@@ -1,11 +1,11 @@
-@import 'variables';
-@import 'constant';
-@import '_mixin';
+@import "./variables";
+@import "_mixin";
+@import "./constant";
 
 body {
   .main__header {
     max-height: 1000px;
-    background-image: url('../banner/home-banner.jpg');
+    background-image: url("../banner/home-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -932,7 +932,7 @@ footer {
           .fixed__link {
             background-image: linear-gradient(to right, #9646db, #5f55ea);
             color: white;
-            padding: 13px 35px;
+            padding: 14px 35px;
             text-transform: capitalize;
             font-size: 14px;
             border-radius: 50px 50px 50px 50px;
